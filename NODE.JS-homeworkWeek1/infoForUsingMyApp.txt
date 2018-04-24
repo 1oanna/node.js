@@ -1,0 +1,64 @@
+---- Assignment by Ioanna Talasli for Node.js week 1 at SHA 04/2018 ----
+
+--- This is a Plain Text file with additional information, that will help anyone understand and run my application. 
+At this point in time (04/2018) of creating my application, I am using the latest stable version of 
+Node.js v8.11.1 LTS and the latest version of Google Chrome 66.0.3359.117 ---
+
+--- What I needed to do ---
+Create an HTTP server that can add and subtract from a number, which we will call state.
+
+--- Rules for the assignment ---
+Rule 1
+DO NOT USE EXPRESS.JS
+
+Rule 2
+Make a version without any npm packages. 
+http, of course, is a built-in Node.js package, so you can use that.
+
+
+--- Notes to help you check that my application in index.js meets the endpoint criteria and runs properly ---
+
+1) Run in node my application from index.js in your terminal. 
+
+2) You need to copy and paste each of those addresses below ex. http://localhost:8080/state in the browser. 
+By doing that, you can see the results in the browser and check that my application is working correctly, as it supposed to from the given assignment by SHA. 
+
+--- Endpoints criteria ---
+
+// The state variable
+let state = 10;
+
+/* /state
+ * response: the current state in a HTML format
+ * When the server starts, this should return '10'
+ */
+http://localhost:8080/state
+
+
+/* /add
+ * Response: 11 in HTML format
+ * This should add 1 to the current state
+ */
+http://localhost:8080/add
+
+/* /subtract
+ * Response: 10 in HTML format
+ * This should subtract 1 ƒrom the current state
+ */
+http://localhost:8080/subtract
+
+/* /reset
+ * Response: "OK" in HTML format
+ * This should set the state back to '10'
+ */
+http://localhost:8080/reset
+
+/* Any other URL
+ * Response: return error code 404: 'Not found' with a friendly message and do
+ * not change the state variable
+ */
+http://localhost:8080/bad
+
+
+----- Thank you for taking time to check out my first application using node.js. 
+Any constructive feedback on my work, would be greatly appreciated. -----
