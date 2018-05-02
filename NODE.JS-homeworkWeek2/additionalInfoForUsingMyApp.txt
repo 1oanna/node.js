@@ -1,0 +1,33 @@
+----------------- ASSIGNMENT BY IOANNA TALASLI FOR NODE.JS WEEK 2 IN SHA 05/2018 ---------------------
+
+--- This is a Plain Text file with additional information, that will help anyone understand and run my application. 
+At this point in time (05/2018) of creating my application, I am using the latest stable version of 
+Node.js v8.11.1 LTS ---
+
+
+-------------------------- Write a Node.js command line application ----------------------------------
+----- The following commands must be present -----
+1) The user must be able to run the file using node index.js 
+2) No command or help ---> to display the available commands ----> node index.js . or node index.js help
+3) list ---> Shows current to-dos, or shows an appropriate text if there are no to-dos --> node index.js list
+4) add ---> Adds a to-do item. All the words behind add are entered as 1 to-do item to the list ---> ex. node index.js add item 1 
+5) remove ---> Removes a to-do item by its 1-base index, e.g. to remove second item, execute ---> node index.js remove 2 
+6) reset ---> Removes all to-do items from the list ---> node index.js reset
+----------------------------------------- Bonus assignment -------------------------------------------
+1) Use JSON to store to-dos
+2) update ---> Updates a to-do item with new text ----> node index.js update 3 "Brush teeth"
+3) Handle edge cases, i.e. control what happens if user enters unexpected input, e.g. remove -100
+
+--- Notes to help you check that my application in index.js meets the above criteria and runs properly ---
+
+1) Run in node my application from index.js in your terminal
+2) Use the above commands to create your own todo list read my instructions on how to run it properly
+3) Edge cases are handled and you will see warnings in the terminal if your input is invalid
+4) There are no additional dependencies added to my application
+5) The todo items will be added in the external file data.txt in Json. You can find it inside my folder NODE.JS-homeworkWeek2
+
+
+----- Thank you for taking time to check out my second application using node.js. 
+Any constructive feedback on my work, would be greatly appreciated. -----
+
+
