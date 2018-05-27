@@ -132,7 +132,7 @@ All responses should be in JSON format, and follow the response structure of the
 
 Follow the anatomy of the project
 
-Make sure your code is not DRY
+Make sure your code is DRY
 
 Follow the REST design principles: use the proper method, response status codes, and consistent URL paths
 
