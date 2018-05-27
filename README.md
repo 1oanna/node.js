@@ -125,11 +125,17 @@ markAsNotDone (DELETE /todos/:id/done)
 Sets the done flag of a single to-do to false
 
 Requirements
+
 All requests that need a body should be in JSON format, and follow the request structure of the other actions
+
 All responses should be in JSON format, and follow the response structure of the other actions
+
 Follow the anatomy of the project
-Make sure your code is DRY
+
+Make sure your code is not DRY
+
 Follow the REST design principles: use the proper method, response status codes, and consistent URL paths
+
 Test your API using Postman
 
 
